@@ -18,5 +18,8 @@ apiserver:
     - mongodb
 mongodb:
   image: mongo
+  environment:
+    DB: tfk
+    COLLECTION: politicians
   ports:
    - "27017:27017"
