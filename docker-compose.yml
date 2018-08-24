@@ -17,7 +17,7 @@ apiserver:
   links:
     - mongodb
 mongodb:
-  image: mongo:latest@sha256:80ab977292cf6e1fbc4d7a85bb6cfe85356af883647a4e2ec09c4c0edc30b28e
+  image: mongo:latest@sha256:80effebafa252576a8bad9547f04d783ff02bfc881915731b5bf2f314d0ce5fc
   environment:
     DB: tfk
     COLLECTION: politicians
