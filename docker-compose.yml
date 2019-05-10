@@ -8,7 +8,7 @@ webserver:
   links:
    - apiserver
 apiserver:
-  image: telemark/api.t-fk.politikere:latest@sha256:f8ec8e033d3fd2c4066b7d16f3f1425524b404b4989fc363d3a42a5252db9850
+  image: telemark/api.t-fk.politikere:latest@sha256:a65a27e35cc118be83abe39b24e0a35e391318d701050b2888d39a653da8cd44
   environment:
     SERVER_PORT: 3000
     DB_CONNECTION: mongodb://mongodb_1:27017/tfk
