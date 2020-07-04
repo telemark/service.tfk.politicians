@@ -1,5 +1,5 @@
 webserver:
-  image: telemark/app-tfk-politikere:latest@sha256:073a3b2f35a0a6120a1e51a7787012c273979e87a005619ee6c10ffe28b5b8ee
+  image: telemark/app-tfk-politikere:latest@sha256:e6da56ea36926f2f061a6bf09b7553ce52281486028dd083f175d3d992d1e2f0
   environment:
     SERVER_PORT: 80
     API_URL: http://apiserver_1:3000
